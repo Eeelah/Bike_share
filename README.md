@@ -1,4 +1,4 @@
-# Bike_share
+#Google Data Analysis Capstone Project(cyclistic Bike-Share)
 
 
 Introduction
@@ -19,9 +19,9 @@ How does casual riders and Annual riders use cyclistic differently?
 
 Prepare: The analytic team is given a 12-month previous historical dataset.  The team decides on using R and RStudio for all data Processing, analysis and visualization due to size.  The analytic team is set to check the data validation. The data is publicly available and is provided by multivate International. Next the team varies the data set, Does the data ROCC. And finds out that the dataset is complete, accurate and capable of answering the business questions.
 
-Process: A single data frame was created by cleaning and merging each dataset. Null values and duplicate values were removed. The analytic team excluded columns that were not relevant to the project, renamed column names that were long and unwieldy for easier reading. The cleaned dataframe was then transformed--- new columns used for data aggregation were created for providing context to the data analysis. [See R script].
+Process: A single data frame was created by cleaning and merging each dataset. Null values and duplicate values were removed. The analytic team excluded columns that were not relevant to the project, renamed column names that were long and unwieldy for easier reading. The cleaned dataframe was then transformed--- new columns used for data aggregation were created for providing context to the data analysis.
 
-Analyze: The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team. [See R script].
+Analyze: The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team.
 
 Key Insight:
 •	Casual riders made about 43.4% of total riders while annual riders made 56.6% of total riders.
