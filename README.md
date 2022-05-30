@@ -14,16 +14,16 @@ The marketing data analyst team is faced with a challenge of understanding how c
 Business Objectives:
 •	Provide insight on how the casual riders and Annual riders use cyclistic differently
 
- Tools Used: data Cleaning, transformation, analysis, and Visualization was done with R and RStudio. This case study I followed the 6 steps of data analysis as developed by Goggle --Ask, prepare, process, analyze, share and Act.
+ **Tools Used**: data Cleaning, transformation, analysis, and Visualization was done with R and RStudio. This case study I followed the 6 steps of data analysis as developed by Goggle --Ask, prepare, process, analyze, share and Act.
 
-Ask:  The first phase of the data analysis process is asking the right questions. A clear business goal and objectives are laid out and communicated in tandem with expectations from stakeholders. Using the marketing data and other strategic analytics, the bicycle marketing Analytic Team, along with the secondary stakeholder (Lily Monaro), is asked to answer the following key business question:
+**Ask:**  The first phase of the data analysis process is asking the right questions. A clear business goal and objectives are laid out and communicated in tandem with expectations from stakeholders. Using the marketing data and other strategic analytics, the bicycle marketing Analytic Team, along with the secondary stakeholder (Lily Monaro), is asked to answer the following key business question:
 How does casual riders and Annual riders use cyclistic differently?
 
-Prepare: The analytic team is given a 12-month previous historical dataset.  The team decides on using R and RStudio for all data Processing, analysis and visualization due to size.  The analytic team is set to check the data validation. The data is publicly available and is provided by multivate International. Next the team varies the data set, Does the data ROCC. And finds out that the dataset is complete, accurate and capable of answering the business questions.
+**Prepare**: The analytic team is given a 12-month previous historical dataset.  The team decides on using R and RStudio for all data Processing, analysis and visualization due to size.  The analytic team is set to check the data validation. The data is publicly available and is provided by multivate International. Next the team varies the data set, Does the data ROCC. And finds out that the dataset is complete, accurate and capable of answering the business questions.
 
-Process: A single data frame was created by cleaning and merging each dataset. Null values and duplicate values were removed. The analytic team excluded columns that were not relevant to the project, renamed column names that were long and unwieldy for easier reading. The cleaned dataframe was then transformed--- new columns used for data aggregation were created for providing context to the data analysis.
+**Process:** A single data frame was created by cleaning and merging each dataset. Null values and duplicate values were removed. The analytic team excluded columns that were not relevant to the project, renamed column names that were long and unwieldy for easier reading. The cleaned dataframe was then transformed--- new columns used for data aggregation were created for providing context to the data analysis.
 
- Analyze: The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team.
+ **Analyze:** The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team.
 
 #### Key Insight:
 •	Casual riders made about 43.4% of total riders while annual riders made 56.6% of total riders.
