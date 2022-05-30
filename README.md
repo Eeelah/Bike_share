@@ -2,7 +2,7 @@
 
 
  **Introduction**
-A descriptive data analysis of a fictional bike share company in Chicago called cyclistic. This case study is part of the google data analysis professional certificate capstone project, in collaboration with cousera.  Data for this study is made publicly available by motivate international Inc, under this license (https://ride.divvybikes.com/data-license-agreement), and spans from January 2020 – December 2020. 
+A descriptive data analysis of a fictional bike sharing company in Chicago called cyclistic. This case study is part of the google data analysis professional certificate capstone project, in collaboration with cousera.  Data for this study is made publicly available by motivate international Inc, under this license (https://ride.divvybikes.com/data-license-agreement), and spans from January 2020 – December 2020. 
 
 
 **Scenario**:
