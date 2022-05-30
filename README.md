@@ -25,7 +25,7 @@ How does casual riders and Annual riders use cyclistic differently?
 
  **Analyze:** The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team.
 
-** Key Insight:**
+** Key Insight**:
 •	Casual riders made about 43.4% of total riders while annual riders made 56.6% of total riders.
 
 •	Casual riders use bikeshare service more during the weekends (Saturday and Sunday). On average, the trip duration are 49.8 mins and 96.7 mins, while annual members use them consistently over the entire weekday.
