@@ -1,11 +1,11 @@
  # Google Data Analysis Capstone Project(cyclistic Bike-Share)
 
 
-** Introduction**
+**** Introduction****
 A descriptive data analysis of a fictional bike share company in Chicago called cyclistic. This case study is part of the google data analysis professional certificate capstone project, in collaboration with cousera.  Data for this study is made publicly available by motivate international Inc, under this license (https://ride.divvybikes.com/data-license-agreement), and spans from January 2020 – December 2020. 
 
 
-** Scenario:**
+**** Scenario:****
 The marketing data analyst team is faced with a challenge of understanding how casual riders and annual members use cyclistic differently. The insight obtained, will be used in optimizing marketing strategies on how to convert casual riders to annual members. Here I will be carrying out a case study, intended on answering key business question about how the casual members and annual members use cyclistic differently. It should be noted that due to the limitations and insufficient data, my focus will be sorely on understanding bike-share patterns (similarities and differences) between the casual and annual members. The insight obtained will be used in carrying out marketing strategies aimed at converting more casual riders to annual members. 
 
 
@@ -36,7 +36,7 @@ How does casual riders and Annual riders use cyclistic differently?
 •	The average trip duration of casual riders is more than twice those of the annual members over any given period.
 Share: Cyclistic data analytic team ensured that their analysis and visualization is in consonance with the stakeholders’ expectations and also ensures that the visualization were simple and easily understandable.
 
-** Act/ Recommendation:**
+**** Act/ Recommendation:****
 •	Introduce a special weekend discounted membership service. Where membership fees are renewed yearly. This can potentially cause casual riders to take up membership.
 •	Cyclistic marketing team can create a special bonus based on certain threshold of number of trip and trip duration for member customers. This can potentially influence casual riders to take up membership.
 •	Additional data that could expand the scope of analysis like customers occupation, pricing details, Age and gender can be collected and analyzed. This data could be used to target non-members who come under similar occupation.
