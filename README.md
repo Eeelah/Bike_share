@@ -6,8 +6,7 @@ A descriptive data analysis of a fictional bike sharing company in Chicago calle
 
 
 **Scenario**:
-The marketing data analyst team is faced with a challenge of understanding how casual riders and annual members use cyclistic differently. The insight obtained, will be used in optimizing marketing strategies on how to convert casual riders to annual members. Here I will be carrying out a case study, intended on answering key business question about how the casual members and annual members use cyclistic differently. It should be noted that due to the limitations and insufficient data, my focus will be sorely on understanding bike-share patterns (similarities and differences) between the casual and annual members. The insight obtained will be used in carrying out marketing strategies aimed at converting more casual riders to annual members. 
-
+The marketing data analyst team is faced with a challenge of understanding how casual riders and annual members use cyclistic differently. The insight obtained, will be used in optimizing marketing strategies on how to convert casual riders to annual members. Here I will be carrying out a case study, intended on answering key business question about how the casual members and annual members use cyclistic differently. It should be noted that due to the limitations and insufficient data, my focus will be sorely on understanding bike-share patterns (similarities and differences) between the casual and annual members. 
 
 **Business Task:**
 •	Analyze Cyclistic bike share data to gain insights into how casual and annual riders use cyclistic differently.
