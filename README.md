@@ -1,11 +1,11 @@
  # Google Data Analysis Capstone Project(cyclistic Bike-Share)
 
 
-** Introduction**
+ **##Introduction**
 A descriptive data analysis of a fictional bike share company in Chicago called cyclistic. This case study is part of the google data analysis professional certificate capstone project, in collaboration with cousera.  Data for this study is made publicly available by motivate international Inc, under this license (https://ride.divvybikes.com/data-license-agreement), and spans from January 2020 – December 2020. 
 
 
-** Scenario**:
+**##Scenario**:
 The marketing data analyst team is faced with a challenge of understanding how casual riders and annual members use cyclistic differently. The insight obtained, will be used in optimizing marketing strategies on how to convert casual riders to annual members. Here I will be carrying out a case study, intended on answering key business question about how the casual members and annual members use cyclistic differently. It should be noted that due to the limitations and insufficient data, my focus will be sorely on understanding bike-share patterns (similarities and differences) between the casual and annual members. The insight obtained will be used in carrying out marketing strategies aimed at converting more casual riders to annual members. 
 
 
