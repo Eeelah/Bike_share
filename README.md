@@ -10,15 +10,16 @@ The marketing data analyst team is faced with a challenge of understanding how c
 
 **Business Task:**
 •	Analyze Cyclistic bike share data to gain insights into how casual and annual riders use cyclistic differently.
-Business Objectives:
+
+**Business Objectives**:
 •	Provide insight on how the casual riders and Annual riders use cyclistic differently
 
- **Tools Used**: data Cleaning, transformation, analysis, and Visualization was done with R and RStudio. This case study I followed the 6 steps of data analysis as developed by Goggle --Ask, prepare, process, analyze, share and Act.
+ **Tools Used**: data Cleaning, transformation, analysis, and Visualization was done with R and RStudio. This case study  followed the 6 steps of data analysis as developed by Goggle --Ask, prepare, process, analyze, share and Act.
 
-**Ask:**  The first phase of the data analysis process is asking the right questions. A clear business goal and objectives are laid out and communicated in tandem with expectations from stakeholders. Using the marketing data and other strategic analytics, the bicycle marketing Analytic Team, along with the secondary stakeholder (Lily Monaro), is asked to answer the following key business question:
-How does casual riders and Annual riders use cyclistic differently?
+**Ask:**  The first phase of the data analysis process is asking the right questions. A clear business goal and objectives are laid out and communicated in tandem with stakeholders expectations. Using the marketing data and other strategic analytics, the bicycle marketing Analytic Team, along with the secondary stakeholder (Lily Monaro), is asked to answer the following key business question:
+**How does casual riders and Annual riders use cyclistic differently?**
 
-**Prepare**: The analytic team is given a 12-month previous historical dataset.  The team decides on using R and RStudio for all data Processing, analysis and visualization due to size.  The analytic team is set to check the data validation. The data is publicly available and is provided by multivate International. Next the team varies the data set, Does the data ROCC. And finds out that the dataset is complete, accurate and capable of answering the business questions.
+**Prepare**: The analytic team is given a 12-month previous historical dataset.  The team decides on using R and RStudio for all data Processing, analysis and visualization due to its large size.  The analytic team is set to check the data validation. The data is publicly available and is provided by multivate International. Next the team varifies the data set, does the data ROCC. And finds out that the dataset is complete, accurate and capable of answering the business question.
 
 **Process:** A single data frame was created by cleaning and merging each dataset. Null values and duplicate values were removed. The analytic team excluded columns that were not relevant to the project, renamed column names that were long and unwieldy for easier reading. The cleaned dataframe was then transformed--- new columns used for data aggregation were created for providing context to the data analysis.
 
@@ -27,13 +28,14 @@ How does casual riders and Annual riders use cyclistic differently?
 **Key Insight**:
 •	Casual riders made about 43.4% of total riders while annual riders made 56.6% of total riders.
 
-•	Casual riders use bikeshare service more during the weekends (Saturday and Sunday). On average, the trip duration are 49.8 mins and 96.7 mins, while annual members use them consistently over the entire weekday.
+•	Casual riders use bikeshare service more during the weekends (Saturday and Sunday), while annual members use them consistently over the entire weekday. On average, the trip duration are 49.8 mins and 96.7 mins respectively.
 
 •	The docked bike type is more popular among the casual riders with average trip duration of 208 minutes while the classic bike type is preferred among the annual riders with average trip duration of 16 minutes.
 
 
-•	The average trip duration of casual riders is more than twice those of the annual members over any given period.
-Share: Cyclistic data analytic team ensured that their analysis and visualization is in consonance with the stakeholders’ expectations and also ensures that the visualization were simple and easily understandable.
+•	The average trip duration of casual riders is more than twice for  those of the annual members over any given period.
+
+**Share:** Cyclistic data analytic team ensured that their analysis and visualization is in consonance with the stakeholders’ expectations and also ensures that the visualization were simple and easily understandable.
 
  **Act/ Recommendation**:
 •	Introduce a special weekend discounted membership service. Where membership fees are renewed yearly. This can potentially cause casual riders to take up membership.
