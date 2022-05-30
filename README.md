@@ -9,7 +9,7 @@ A descriptive data analysis of a fictional bike share company in Chicago called 
 The marketing data analyst team is faced with a challenge of understanding how casual riders and annual members use cyclistic differently. The insight obtained, will be used in optimizing marketing strategies on how to convert casual riders to annual members. Here I will be carrying out a case study, intended on answering key business question about how the casual members and annual members use cyclistic differently. It should be noted that due to the limitations and insufficient data, my focus will be sorely on understanding bike-share patterns (similarities and differences) between the casual and annual members. The insight obtained will be used in carrying out marketing strategies aimed at converting more casual riders to annual members. 
 
 
-** Business Task**:
+**##Business Task**:
 •	Analyze Cyclistic bike share data to gain insights into how casual and annual riders use cyclistic differently.
 Business Objectives:
 •	Provide insight on how the casual riders and Annual riders use cyclistic differently
@@ -25,7 +25,7 @@ How does casual riders and Annual riders use cyclistic differently?
 
  **Analyze:** The dataframe is now ready for exploratory analysis that will help us uncover some insight on how the casual riders and annual members use cyclistic differently. Simple statistical summary like total trip duration by customer type, total number of trip duration by customer type and day of the week etc. was done by the team.
 
-** Key Insight**:
+**##Key Insight**:
 •	Casual riders made about 43.4% of total riders while annual riders made 56.6% of total riders.
 
 •	Casual riders use bikeshare service more during the weekends (Saturday and Sunday). On average, the trip duration are 49.8 mins and 96.7 mins, while annual members use them consistently over the entire weekday.
