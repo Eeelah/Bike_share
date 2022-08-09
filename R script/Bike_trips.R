@@ -2,7 +2,7 @@
 # Author: Emmanuela Afoma Okafor
 
 
-#install packages for data analysis and visualization
+#install and load packages for data analysis and visualization
 install.packages("tidyverse")
 install.packages("janitor")
 install.packages("ggplot2")
@@ -53,7 +53,8 @@ all_trip <- na.omit(all_trip) %>%
          customer_type = member_casual,
          number_of_ride = count.ride_id.)
 
-#After removing all null values, our data set now has 8564 rows from 8579 rows. the NA values amounts to 0.17% of total dataset
+#After removing all null values, our data set now has 8564 rows from 8579 rows. the Null values amounts to 0.17% of total dataset
+
 #Data Transformation:  Here we will convert start time and end time char object to datetime object so as to create and calculate a new variable trip duration
 #create new variable year
 #create a new variable month
@@ -70,13 +71,9 @@ all_trip$weekday <-lubridate::wday(all_trip$start_time,label = TRUE, abbr = FALS
 all_trip$trip_duration <- (as.double(difftime(all_trip$end_time,all_trip$start_time)))/60
 
 
-
-
 #Exploratory data Analysis : checking count of distinct values of customer_type and statistical summary of trip_duration for all trip types
 table(all_trip$customer_type)
 summary(all_trip$trip_duration)
-
-
 
 
 #Exploratory data Analysis: checking the total Number of rides and percentage per customer type
@@ -85,8 +82,6 @@ all_trip %>%
   summarise( number_of_ride = n()) %>%
   mutate(number_of_ride / sum(number_of_ride) * 100)
 # casual riders make up about 43.4 % of total riders while annual members make up about 56.6% of total riders.
-
-
 
 
 #Aggregating total trip duration by customer type
@@ -98,16 +93,12 @@ all_trip %>%
 #which suggets that the casual riders go on  a long road trip than the member riders
 
 
-
-
 #statistics of total trip duration by customer type and by bike type
 all_trip %>%
   group_by(customer_type,ride_type) %>%
   summarise(min_trip_duration = min(trip_duration), max_trip_duration = max(trip_duration), 
             mean_trip_duration = mean(trip_duration))
 # The docked bike type is more popular among the casual riders with average trip duration of 208 minutes while the classic bike type is preferred among the annual riders with average trip duration of 16 minutes.
-
-
 
 
 #statistics of total rides by weekday and customer type
@@ -118,15 +109,12 @@ all_trip %>%
 # Casual riders use bike share service more during the weekends (Saturday and Sunday). On average, the trip duration are 49.8 mins and 96.7 mins, while annual members use them consistently over the entire weekday.
 
 
-
-
 #statistics of total rides by month and customer type
 all_trip %>%
   group_by(customer_type, month) %>%
   summarise(number_of_ride = n()) %>%
   arrange(customer_type,desc(number_of_ride))
 #Here casual riders ride more during August
-
 
 
 #statistics of Average trip duration by month and customer type 
@@ -137,8 +125,6 @@ all_trip %>%
 #on Average casual rides rides more at June with 92.4 mins average trip duration, whilst the member users rides less on 30 mins on average across all months
 
 
-
-
 #Data Visualization 1
 #Total number of Trips by customer type
 all_trip %>%
@@ -147,7 +133,6 @@ all_trip %>%
        y = "number of rides") +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
   geom_col()
-
 
 
 #Data Visualization 2
@@ -162,7 +147,6 @@ all_trip %>%
   geom_col()
 
 
-
 #Data Visualization 3
 #Total number of Trips by ride type
 all_trip %>%
@@ -171,8 +155,6 @@ all_trip %>%
        y = "number of rides") +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
   geom_col(position = "stack")
-
-
 
 
 #Data visuaization 4
@@ -185,7 +167,6 @@ all_trip %>%
        y = "avg.trip duration") +
   scale_y_continuous(labels = function(x) format(x, scientific = FALSE)) +
   geom_col(position = "dodge")
-
 
 
 #Data visualization 5
